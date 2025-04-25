@@ -1,11 +1,13 @@
 package com.agnes;
 
+import java.util.Date;
 import java.util.Scanner;
 
 public class VariableDataType {
     public static void main(String[] args) {
         exe1();
         exe2();
+        exe8();
     }
 
     public static void exe1() {
@@ -41,5 +43,9 @@ public class VariableDataType {
             System.out.println("You are a minor");
         }
 
+    }
+    public static void exe8(){
+        Date now = new Date();
+        System.out.println(now);
     }
 }
